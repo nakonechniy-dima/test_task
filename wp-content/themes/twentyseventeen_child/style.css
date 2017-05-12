@@ -1,0 +1,37 @@
+/*
+Theme Name:     Twenty Seventeen Child
+Description:    This is Twenty Seventeen Child Theme
+Author:         Dima Nakonechniy
+Template:       twentyseventeen
+Version:        1.0.1
+*/
+
+@import url("../twentyseventeen/style.css");
+
+.widefat1 {
+    border-spacing: 0;
+    width: 100%;
+    clear: both;
+    margin: 0;
+}
+.widefat2 {
+    border-spacing: 0;
+    width: 100%;
+    clear: both;
+    margin: 0;
+}
+#login-form {
+    width: 25%;
+    margin: 0 auto;
+}
+#submit {
+    margin-top: 15px;
+}
+#login-page {
+    text-align: center;
+}
+input[name='quantity']{
+    display: initial;
+    width: 15%;
+    height: 35px;
+}
