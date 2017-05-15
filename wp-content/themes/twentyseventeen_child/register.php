@@ -3,7 +3,7 @@
 Template Name: Register
 */
 
-require_once(ABSPATH . WPINC . '/registration.php');
+// require_once(ABSPATH . WPINC . '/registration.php');
 global $wpdb, $user_ID;
 
 if ($user_ID) {
@@ -75,7 +75,7 @@ if ($user_ID) {
     <input type="text" name="email" id="email" placeholder="email">
 
     <label>Skype</label>
-    <input id="skype" type="text" placeholder="skype" value="<?php echo $_POST['skype']; ?>" name="skype" >
+    <input id="skype" type="text" placeholder="skype" value="" name="skype" >
 
     <label for="password">Password</label>
     <input type="password" name="password" id="password" placeholder="password">

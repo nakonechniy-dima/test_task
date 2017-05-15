@@ -29,8 +29,7 @@ function movies_init(){
         'has_archive'          => true,
         'hierarchical'         => false,
         'menu_position'        => 5,
-        'supports'             => array('title','editor','thumbnail'),
-        'register_meta_box_cb' => 'subtitle_metabox'
+        'supports'             => array('title','editor','thumbnail')
     ) );
 }
 add_action('init', 'movies_init');
